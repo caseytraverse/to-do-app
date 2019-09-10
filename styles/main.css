@@ -1,0 +1,25 @@
+#header-todo {
+  height: 10vh;
+}
+
+#newToDoText{
+    padding-left: 15%;
+}
+
+#addToDoForm{
+  padding-top: 15%;
+  padding-left: 5%;
+}
+
+
+#toDoList{
+  padding-left: 15%;
+}
+
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+
+}
