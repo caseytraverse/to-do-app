@@ -1,21 +1,51 @@
-#header-todo {
-  height: 10vh;
+body {
+    padding: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: rgb(63,81,181);
 }
 
-#newToDoText{
-    padding-left: 15%;
+.demo-card-wide.mdl-card {
+    width: 512px;
+  }
+.demo-card-wide > .mdl-card__title {
+    color: #000;
+    padding-bottom: 130px;
+    height: 176px;
+    background: url(../images/image.jpg) center / cover;
+  }
+.demo-card-wide > .mdl-card__menu {
+    color: #000;
+  }
+
+.button_color {
+      color: red;
+  }
+
+#addToDoForm {
+    padding-top: 0px;
 }
 
-#addToDoForm{
-  padding-top: 15%;
-  padding-left: 5%;
+.currentTasks {
+    padding-left: 16px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-
-#toDoList{
-  padding-left: 15%;
+ul {
+  font-size: 14px;
+  color: #000;
 }
 
+.mdl-card__supporting-text {
+    padding-left: 26px;
+}
+
+.mdl-card__title-text {
+    font-weight: 400;
+    padding-left: 16px;
+}
 
 @media screen and (max-width: 1024px) {
   header.mdl-layout__header {
